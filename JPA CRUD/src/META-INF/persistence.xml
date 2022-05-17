@@ -10,10 +10,11 @@ version="2.0">
 <property name="javax.persistence.jdbc.driver"
 value="com.mysql.jdbc.Driver" />
 <property name="javax.persistence.jdbc.url"
-value="jdbc:mysql://localhost:3306/CG1" />
+value="jdbc:mysql://localhost:3306/CG1"/>
 <property name="javax.persistence.jdbc.user" value="root" />
 <property name="javax.persistence.jdbc.password"
 value="jenny" />
+<property name="hibernate.hbm2ddl.auto" value="update"/>
 </properties>
 </persistence-unit>
 </persistence>
